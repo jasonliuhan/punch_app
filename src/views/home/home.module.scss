@@ -1,0 +1,226 @@
+// import CodeSend from "../../assets/image/home/codeSend.png"
+// import CodeLoad from "../../assets/image/home/codeLoad.png"
+
+.homePage {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family: Nunito-Medium;
+
+
+    .backgroundVedioBlock {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+
+    .backgroundGif {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .pageHeadBlock {
+        position: relative;
+        padding-top: 1.15rem;
+        z-index: 99;
+
+        .headData {
+            width: 3.39rem;
+            height: 0.3rem;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 0.15rem;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+
+            .headMiner {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                width: 1.6rem;
+
+                .icon {
+                    width: 0.22rem;
+                    margin-left: 0.15rem;
+                }
+
+                .text {
+
+                    font-weight: 700;
+                    font-size: 0.12rem;
+                    line-height: 0.18rem;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-left: 0.04rem;
+                }
+
+                .mInfo {
+                    margin-left: 0.04rem;
+                    font-weight: 900;
+                    font-size: 0.16rem;
+                    line-height: 0.18rem;
+                    text-align: center;
+
+                    color: #FFD362;
+                }
+            }
+
+            .headStatus {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+
+                .icon {
+                    width: 0.22rem;
+                }
+
+                .text {
+
+                    font-weight: 700;
+                    font-size: 0.12rem;
+                    line-height: 0.18rem;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-left: 0.04rem;
+                }
+
+                .mInfo {
+                    margin-left: 0.04rem;
+                    font-weight: 900;
+                    font-size: 0.16rem;
+                    line-height: 0.18rem;
+                    text-align: center;
+
+                    color: #00D289;
+                }
+            }
+
+        }
+    }
+
+    .pageBottomBlock {
+        position: fixed;
+        bottom: 0rem;
+        width: 100%;
+        height: 1.6rem;
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 0.22rem 0.22rem 0 0;
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+
+        .BottomButton {
+            margin-top: 0.2rem;
+            width: 2.4rem;
+            height: 0.38rem;
+            background: rgba(217, 217, 217, 0.4);
+            border-radius: 0.27rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .buttonText {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .popoverBlock {
+        position: fixed;
+        width: 100%;
+        height: 3.69rem;
+        bottom: 0;
+        background: linear-gradient(180.26deg, #EEE9FF 0.23%, #FCFCFF 99.77%);
+        border-radius: 0.24rem 0.24rem 0 0 ; 
+        z-index: 999;
+        .title{
+            font-size: 0.3rem;
+            color: #333333;
+            text-align: center;
+            margin-top: 0.4rem;
+        }
+        .popoverButton{
+            margin-top: 0.5rem;
+            .singleButton{
+                width: 3rem;
+                height: 0.8rem;
+                margin: 0 auto;
+            }
+            .email{
+                background-color: ca5140;
+            }
+        }
+    }
+
+    .blockAir {
+        position: absolute;
+        top: 3rem;
+        left: 1.7rem;
+
+        .single {
+            position: absolute;
+
+            .block {
+                width: 0.4rem;
+                height: 0.4rem;
+            }
+
+            .block1 {
+                position: absolute;
+                top: 0rem;
+                left: 0rem;
+            }
+
+            .block2 {
+                position: absolute;
+                top: 0.15rem;
+                left: 0.3rem;
+            }
+
+            .block3 {
+                position: absolute;
+                top: 0.3rem;
+                left: 0.6rem;
+            }
+
+            .block4 {
+                position: absolute;
+                top: 0.45rem;
+                left: 0.9rem;
+            }
+
+
+            .block5 {
+                position: absolute;
+                top: 0.18rem;
+                left: -0.16rem;
+            }
+
+            .block6 {
+                position: absolute;
+                top: 0.32rem;
+                left: 0.14rem;
+            }
+
+            .block7 {
+                position: absolute;
+                top: 0.46rem;
+                left: 0.44rem;
+            }
+
+            .block8 {
+                position: absolute;
+                top: 0.6rem;
+                left: 0.74rem;
+            }
+        }
+    }
+
+
+
+
+
+}

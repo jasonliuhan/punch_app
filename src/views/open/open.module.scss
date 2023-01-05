@@ -1,0 +1,133 @@
+.openPage {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    .backgroundVedioBlock {
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        .video {
+            width: 100%;
+        }
+    }
+
+    .headBlock {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.3rem;
+        margin-top: 0.25rem;
+
+        .headLeft {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logoBlock {
+                position: relative;
+
+                .logoImg {
+                    position: relative;
+                    display: block;
+                    width: 0.4rem;
+                    height: 0.4rem;
+                }
+            }
+
+            .logoTextBlock {
+                position: relative;
+                margin-left: 0.08rem;
+
+                .logoTextImg {
+                    position: relative;
+                    width: 0.61rem;
+                }
+            }
+
+        }
+
+        .headRight {
+            width: 0.92rem;
+            height: 0.34rem;
+            border-radius: 0.21rem;
+            opacity: 1;
+            border: 0.02rem solid #FFFFFF;
+
+            font-size: 0.14rem;
+            font-family: Nunito-Bold, Nunito;
+            font-weight: bold;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .bodyBlock {
+        position: relative;
+
+        .gameImgBlock {
+            position: relative;
+
+            .gameImg {
+                position: relative;
+                width: 2.78rem;
+                height: 5.92rem;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .GameTextBlock {
+            position: absolute;
+            top: 3.5rem;
+            width: 100%;
+
+            .GameTextImg {
+                position: relative;
+                width: 2.84rem;
+                height: 0.4rem;
+                display: block;
+                margin: 0 auto;
+            }
+            .GameTitle{
+                font-size: 0.4rem;
+                font-weight: bold;
+                color: #FFFFFF;
+                font-family: Nunito-Medium, Nunito;
+                text-align: center;
+            }
+
+            .GameText {
+                width: 3rem;
+                display: block;
+                margin: 0.1rem auto;
+                font-size: 0.18rem;
+                font-weight: 500;
+                color: #FFFFFF;
+                font-family: Nunito-Medium, Nunito;
+            }
+        }
+    }
+
+    .bottomBlock{
+        position: absolute;
+        top: 6rem;
+        width: 100%;
+        .openButtonBlock{
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            .openButton{
+                width: 2.08rem;
+                display: block;
+                margin: 0 auto;
+              
+            }
+        }
+    }
+}

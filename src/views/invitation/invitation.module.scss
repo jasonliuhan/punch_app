@@ -1,0 +1,177 @@
+.openPage {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    .backgroundVedioBlock {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background: linear-gradient(359.84deg, #8DD6FF 4.39%, #D685F3 98.42%);
+        mix-blend-mode: multiply;
+
+        .background {
+            width: 100%;
+        }
+    }
+
+    .headBlock {
+        position: relative;
+
+        margin-top: 0.8rem;
+        text-align: center;
+
+        .logo {
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+
+        .logoText {
+            margin-top: 0.18rem;
+            width: 0.81rem;
+        }
+
+    }
+
+    .bodyBlock {
+        position: relative;
+        top: -0.5rem;
+
+
+
+        .trophy {
+            width: 1.85rem;
+            position: relative;
+            top: -0.3rem;
+        }
+
+        .doll {
+            width: 2.41rem;
+            position: absolute;
+            top: 1.2rem;
+            right: 0px;
+            z-index: 99;
+        }
+
+        .dialogBlock {
+            position: relative;
+            top: -1.4rem;
+            width: 3.11rem;
+            margin: 0 auto;
+            .dialog {
+                position: absolute;
+                width: 3.11rem;
+                top: 0;
+                display: block;
+                
+            }
+            .dialogTextBlock{
+                position: relative;
+                width: 2.7rem;
+                margin: 0 auto;
+                top: 0;
+                display: ß;
+                font-size: 0.18rem;
+                font-weight: 600;
+                color: #6045AD;
+                padding-top: 0.32rem;
+                line-height: 0.24rem;
+            }
+            .dialogName, .dialogGameName{
+                color: #F9762D;
+                font-weight: 900;
+            }
+        }
+
+        .hot_1 {
+            animation: heart 2.5s ease-in-out infinite alternate;
+        }
+        
+        @keyframes heart{
+            from {transform:translate(0,0) }
+            to {transform:translate(0,30px)}/* 下浮高度 */
+        }
+
+        .hot_2 {
+            animation: heart 2.5s ease-in-out infinite alternate;
+            animation-delay: 0.5s;
+        }
+        
+        @keyframes heart{
+            from {transform:translate(0,0) }
+            to {transform:translate(0,30px)}/* 下浮高度 */
+        }
+
+
+
+    }
+
+    .bottomBlock {
+        position: absolute;
+        bottom: 0rem;
+        width: 100%;
+        height: 2.35rem;
+        z-index: 99;
+
+        .bottomAir {
+            position: absolute;
+            bottom: 0rem;
+            width: 100%;
+            height: 2.35rem;
+            background: rgba(91, 107, 248, 0.6);
+            mix-blend-mode: multiply;
+            z-index: 99;
+        }
+
+        .bottomButton {
+            position: relative;
+            width: 2.02rem;
+            z-index: 9999;
+            display: block;
+            margin: 0.5rem auto 0 auto;
+        }
+        .buttonWakeUpBlock{
+            position: relative;
+            width: 2.02rem;
+            z-index: 9999;
+            display: block;
+            margin: 0.24rem auto 0 auto;
+        }
+        .buttonWakeUp{
+            position: absolute;
+            top: 0;
+            width: 2.02rem;
+            z-index: 9999;
+            display: block;
+        }
+        .buttonWakeUpText{
+            width: 1.4rem;
+            color: #ffffff;
+            font-size: 0.15rem;
+            margin: 0 auto ;
+            text-align: center;
+            padding-top: 0.07rem;
+        }
+
+        .view{
+            animation-name: light;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position:relative;
+            z-index: 99;
+        }
+
+        @keyframes light{
+            from{
+                transform: scale(1);
+              }
+              to{
+                transform: scale(1.1);
+              }
+          }
+  
+    }
+}
