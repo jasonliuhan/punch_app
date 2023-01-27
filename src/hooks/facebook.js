@@ -11,6 +11,8 @@ const useFB = () => {
       })
       .catch(error => {
         console.log(error);
+        const credential = FacebookAuthProvider.credentialFromError(error);
+        console.log(credential)
       });
   };
   return { handleLoginFB };

@@ -13,7 +13,7 @@ import Block from "../../assets/image/home/block.png";
 import BackGround from "../../assets/image/home/Appback.png";
 
 import useGoogle from "../../hooks/google";
-import userFB from "../../hooks/facebook"
+import useFB from "../../hooks/facebook"
 
 import {
   useNavigate,
@@ -47,7 +47,7 @@ export const HomeView = (props) => {
   const [type, setType] = useState();
 
   const { handleLoginGoogle } = useGoogle();
-  const { handleLoginFB } = userFB();
+  const { handleLoginFB } = useFB();
 
   const emailInput = React.useRef(false);
   const codeInput = React.useRef(false);
